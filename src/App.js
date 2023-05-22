@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import TwoColumnLayout from './Columns';
+import LavaLampBackground from './LavaLampBackground';
+import './Container.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div className="container">
+          <h1>Under Construction</h1>
+          <TwoColumnLayout
+            leftContent={<p>This is the left column.</p>}
+            rightContent={<p>This is the right column.</p>}
+          />
+          <LavaLampBackground />
+        </div>
   );
 }
 

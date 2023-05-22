@@ -1,0 +1,12 @@
+.container {
+    max-width: 100%; /* Adjust the maximum width as desired */
+    margin: 2%;
+    padding: 8%;
+    background-color: #d0f8fb; /* Set the background color for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for visual separation */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
