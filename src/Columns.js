@@ -1,10 +1,12 @@
+// TwoColumnLayout.js
 import React from 'react';
+import './TwoColumnLayout.css'; // Import the CSS file
 
 const TwoColumnLayout = ({ leftContent, rightContent }) => {
   return (
-    <div style={{ display: 'flex' }}>
-      <div style={{ flex: 1 }}>{leftContent}</div>
-      <div style={{ flex: 1 }}>{rightContent}</div>
+    <div className="two-column-layout">
+      <div className="left-content">{leftContent}</div>
+      <div className="right-content">{rightContent}</div>
     </div>
   );
 };

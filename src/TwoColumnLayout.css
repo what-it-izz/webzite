@@ -1,0 +1,13 @@
+.two-column-layout {
+    display: flex;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 10px;
+  }
