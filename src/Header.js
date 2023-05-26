@@ -1,13 +1,15 @@
-import React from 'react';
-import './Header.css';
+import React from 'react'
+import { Header, Segment } from 'semantic-ui-react'
 
-const Header = () => {
-  return (
-    <header>
-      <h1>My Website</h1>
-      {/* Add other header elements like navigation menu, logo, etc. */}
-    </header>
-  );
-};
+const HeaderExampleFloating = () => (
+  <Segment clearing>
+    <Header as='h2' floated='right'>
+      Float Right
+    </Header>
+    <Header as='h2' floated='left'>
+      Float Left
+    </Header>
+  </Segment>
+)
 
-export default Header;
+export default HeaderExampleFloating
