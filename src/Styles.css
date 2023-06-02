@@ -11,6 +11,7 @@
   margin-bottom: 1%;
   margin-left: 1%;
   margin-right: 1%;
+  /* margin-top: 1%; */
 }
 
 .header {
@@ -28,18 +29,21 @@
 }
 
 .floating-header {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 100;
+  width: 100%; */
+  /* background-color: #fff; */
+  /* z-index: 100; */
 }
 
 .header-nav {
   display: flex;
   justify-content: flex-end;
   background-color: #e6f3fe;
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .link-list {
