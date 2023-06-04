@@ -8,7 +8,6 @@ import './Styles.css';
 function App() {
   return (
     <div>
-      {/* <div className="header"> */}
         <header className='floating-header'>
           <nav class="header-nav">
             <ul class="link-list">
@@ -20,7 +19,6 @@ function App() {
             </ul>
           </nav>
         </header>
-      {/* </div> */}
       <div className="container">
         <img
           src={"./me.jpg"}
@@ -35,12 +33,19 @@ function App() {
             left:"80px",
           }}
         />
-        <iframe width="560" height="315" src="https://youtu.be/PjXNHwK15CQ" frameborder="0" allowfullscreen></iframe>
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/PjXNHwK15CQ" 
+          frameborder="0" 
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
         {/* <TwoColumnLayout
             leftContent={<p>This is the left column.</p>}
             rightContent={<p>This is the right column.</p>}
-        />
-        <LavaLampBackground /> */}
+        /> */}
+        <LavaLampBackground />
       </div>
     </div>
   );
