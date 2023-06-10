@@ -11,11 +11,11 @@ function App() {
       <header className='floating-header'>
         <nav class="header-nav">
           <ul class="link-list">
-          <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Linkedin</a></li>
-            <li><a href="#">Spotify</a></li>
+            {/* <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li> */}
+            <li><a href="https://github.com/what-it-izz" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/isabelle-velasco-14491b1aa/" target="_blank">Linkedin</a></li>
+            <li><a href="https://open.spotify.com/user/izzybellebelle?si=7fbad71d66c44f05&nd=1" target="blank">Spotify</a></li>
           </ul>
         </nav>
       </header>
