@@ -1,3 +1,7 @@
+# My React Website
+## Deployed Using GitHub Pages
+https://what-it-izz.github.io/webzite/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
